@@ -41,6 +41,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <script src="https://js.puter.com/v2/"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.7.570/build/pdf.min.js"></script>
         {children}
         <ScrollRestoration />
         <Scripts />
